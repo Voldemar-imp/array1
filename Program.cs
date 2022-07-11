@@ -17,8 +17,7 @@ namespace array
             int numnerOfColumn = 1;
 
             for (int i = 0; i < numbersArray.GetLength(0); i++)
-            {
-                
+            {                
                     productColumn *= numbersArray[i, numnerOfColumn-1];
                
                 for (int j = 0; j < numbersArray.GetLength(1); j++)
