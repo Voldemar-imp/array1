@@ -27,10 +27,13 @@ namespace array
                     {
                         sumLine += numbersArray[i, j];
                     }
+                    
                     Console.Write(numbersArray[i, j] + " ");
                 }
+                
                 Console.WriteLine();
             }
+            
             Console.WriteLine(sumLine + " - сумма 2-й строки матрицы");
             Console.WriteLine(productColumn+" - произведение 1-го столбца матрицы");
         }
